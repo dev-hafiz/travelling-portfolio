@@ -1,0 +1,1068 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Heebo', sans-serif;
+    font-size: 12px;
+}
+
+h1, h2, h3, h4 , h5, h6 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+
+
+/*---Typhography----*/
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+
+section{
+    padding: 70px 0px;
+}
+
+
+/*----T0P Area Section---*/
+
+
+.TopBar_Header {
+    background: #f7f7f7;
+}
+
+.Social_help_Wrapper {
+    overflow: hidden;
+}
+
+.Container {
+    width: 900px;
+    max-width: 90%;
+    margin: auto;
+    padding: 0px 10px 0px 10px;
+}
+
+.Social_help_Wrapper {
+    overflow: hidden;
+}
+
+
+
+.Phone {
+    width: 219px;
+    float: left;
+    padding: 3px 7px;
+    border-left: 1px solid #6f520b;
+    border-right: 1px solid #6f520b;
+}
+
+.emali i {
+    color: #6f520b;
+}
+
+.Phone i {
+    color: #6f520b;
+}
+
+
+.emali {
+    width: 586px;
+    float: left;
+    padding: 3px 7px;
+}
+
+.Social_link_part {
+    width: 63px;
+    float: left;
+}
+
+.Social_link_part a {
+    transition: .5s;
+    display: block;
+    float: left;
+    color: #6f520b;
+    text-decoration: none;
+    padding: 3px;
+    margin-left: 2px;
+    border-right: 1px solid #6f520b;
+}
+
+.Social_link_part a:first-child {
+    border-left: 1px solid #6f520b;
+}
+
+.Social_link_part a:hover {
+    color: #f3400a;
+}
+
+
+/*----NAV Bar Section----*/
+
+.Nav_linkSection_Wrapper {
+    overflow: hidden;
+}
+
+.navlogo {
+    width: 200px;
+    float: left;
+}
+
+.mune {
+    width: 700px;
+    float: right;
+}
+
+
+.navlogo h1 {
+    font-family: 'ANTON';
+    text-transform: uppercase;
+    color: #694f0e;
+    text-shadow: 4px 2px 3px black;
+    padding-top: 5px;
+    padding-left: 6px;
+    font-size: 33px;
+}
+.navlogo p {
+    text-transform: lowercase;
+    margin-top: -9px;
+    font-size: 12px;
+    color: #9a6e0c;
+    letter-spacing: 5px;
+    margin-left: 3px;
+}
+
+.mune li {
+    float: left;
+    margin-top: 33px;
+}
+
+.mune a {
+    color: #a57708;
+    font-size: 18px;
+    margin-left: 26px;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.mune ul {
+    float: right;
+}
+
+.mune a:hover {
+    color: #ef8707;
+}
+
+
+
+/*----First Section Start-----*/
+
+#Frst_srtion_Starti{
+    background: url(../image/travel1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    padding: 0px;
+}
+
+.SingelBox_slider {
+    color: wheat;
+    width: 450px;
+}
+
+.SingelBox_slider h1 {
+    text-transform: uppercase;
+    padding-top: 163px;
+    margin-bottom: 16px;
+}
+
+.SingelBox_slider p {
+    font-size: 15px;
+    margin-bottom: 53px;
+}
+
+button.sliderBtn {
+    border: none;
+    outline: none;
+    margin-bottom: 107px;
+    background: wheat;
+    padding: 7px 11px;
+    border-radius: 2px;
+    font-family: 'Oswald';
+    letter-spacing: 1px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+button.sliderBtn:hover {
+    background: #f1c778;
+}
+
+/*---Headin section---*/
+
+.Heading-Section-first {
+    padding: 10px 10px;
+    border: 1px solid #845f05;
+}
+
+.Heading-Section-first h1 {
+    text-transform: uppercase;
+    margin: 14px 0px;
+}
+
+.Heading-Section-first p {
+    font-size: 17px;
+    margin-bottom: 26px;
+}
+
+
+
+/*----Flex section-----*/
+
+
+.Sub_title {
+    font-size: 9px;
+    text-align: center;
+}
+
+.Sub_title h2 {
+    color: black;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.Sub_title h2::after {
+    position: absolute;
+    content: "";
+    background: darkgoldenrod;
+    width: 100px;
+    height: 2px;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -5%;
+}
+
+.Flex-section_wrapper {
+    margin-top: 70px;
+    display: flex;
+}
+
+.singelFlexSection {
+    width: 270px;
+    padding: 15px;
+}
+
+.flexIcon {
+    text-align: center;
+    font-size: 40px;
+    color: #634b12;
+    margin-top: 15px;
+}
+
+.singelFlexSection h1 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+
+
+.singelFlexSection p {
+    font-size: 15px;
+    line-height: 23px;
+    color: #4a4949;
+}
+
+
+
+/*---Like News box----*/
+
+.newsImage {
+    border: 1px solid #7b5f1a;
+    box-shadow: 2px 2px 8px #bdbcba;
+    width: 179px;
+}
+
+.newsImage img {width: 100%;}
+
+.newsDescription {
+    padding: 10px;
+    width: 700px;
+}
+
+.singelNewsbox {
+    display: flex;
+    margin-bottom: 28px;
+    background: #ffffff;
+    box-shadow: 1px 2px 6px #e6e5e5;
+}
+.link-newsbox a {
+
+    color: #101010;
+    display: block;
+    float: left;
+    font-family: 'Oswald';
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 9px;
+    margin-bottom: 8px;
+    transition: 0.5s;
+    margin-left: 8px;
+    text-decoration: none;
+}
+
+
+.link-newsbox a:hover {
+    color: #fb4e0c;
+}
+
+.newsDescription h1 {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.newsDescription p {
+    font-size: 15px;
+    text-align: justify;
+}
+
+
+a.parisBtn {
+    color: #7b5f1a;
+    font-family: 'Oswald';
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+a.parisBtn i {
+    font-size: 11px;
+    margin-right: -1px;
+}
+
+a.parisBtn:hover {
+    margin-left: 10px;
+
+}
+
+.alinknews a {
+    color: #40310d;
+    display: block;
+    float: left;
+    border-left: 3px solid #b1a9a9;
+    padding: 0px 10px;
+    font-weight: 600;
+    transition: .5s;
+}
+
+.alinknews i {
+    font-size: 16px;
+    margin-right: 16px;
+    margin-left: 0px;
+}
+
+.alinknews a:hover {
+    color: #fb4e0c;
+}
+
+
+
+
+/*-----Uniq Box -----*/
+
+.Uniq-flex-wrapper {
+    display: flex;
+}
+
+.singel-uniq-box {
+    width: 250px;
+    text-align: center;
+    background: #ececec;
+    padding: 20px;
+    transition: 0.6s;
+    border-radius: 2px;
+    box-shadow: 1px 1px 11px #c5c4c4;
+    margin-left: 26px;
+    margin-bottom: 20px;
+    
+}
+
+.icon {
+    text-align: center;
+}
+
+.icon i {
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    color: #926904;
+}
+
+.title-des h1 {
+    text-transform: uppercase;
+    font-family: 'Oswald';
+    font-size: 19px;
+    color: #926904;
+    margin: 20px 0px;
+}
+
+.title-des p {
+    font-size: 15px;
+    text-align: justify;
+    margin-bottom: 25px;
+    color: #676663;
+}
+
+a.uniq-link {
+    color: #5f3e17;
+    font-size: 15px;
+    margin-bottom: 26px;
+    display: block;
+}
+
+a.uniq-link i {
+    font-size: 11px;
+    margin-left: 2px;
+}
+
+.singel-uniq-box:hover {
+    background: black;
+}
+
+
+
+/*----Price table plan---*/
+
+#Price-section{
+    background: #f0efef;
+}
+
+.singel-box-price {
+    background: white;
+    width: 250px;
+    padding: 20px;
+    border: 1px solid #926904;
+    margin-bottom: 20px;
+}
+
+
+
+.Price-box-wrapper {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.singel-box-price h3 {
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 7px;
+}
+
+
+.singel-box-price h1 {
+    font-size: 31px;
+    font-family: 'Anton';
+    margin-bottom: 20px;
+}
+
+.singel-box-price h1 span {
+    font-size: 14px;
+    margin-left: -5px;
+}
+
+ul.list-cost li a {
+    color: #423f3f;
+    font-size: 15px;
+}
+
+ul.list-cost li {
+    line-height: 30px;
+    transition: 0.5s;
+}
+
+ul.list-cost li a i {
+    font-size: 13px;
+    margin-right: 4px;
+    color: #654e14;
+}
+
+button.visitbtn {
+    border: none;
+    outline: none;
+    background: black;
+    color: #926904;
+    padding: 10px 13px;
+    margin: 25px 0px;
+    border-radius: 2px;
+    transition: 0.5s;
+}
+
+button.visitbtn:hover {
+    background: #2b2929;
+}
+
+ul.list-cost li:hover {
+    margin-left: 5px;
+}
+
+/*---Airport behavior-----*/
+
+.AirportBhav-Wrapper{
+            display: flex;
+            justify-content: space-between;
+
+}
+
+.airportSingelpbhav {
+    width: 270px;
+    overflow: hidden;
+    
+}
+
+.airportSingelpbhav img {
+    width: 100%;
+    margin-bottom: -5px;
+    transition: 0.5s;
+}
+
+.AirportmetaContent {
+    padding: 10px;
+    border: 1px solid #dadada;
+    border-top: none;
+}
+.Airport-title-des h1 {
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    color: #926904;
+    margin: 14px 0px;
+}
+
+.Airport-title-des p {
+    line-height: 22px;
+    font-size: 12px;
+    text-align: justify;
+    margin-bottom: 20px;
+    color: #3c3a3a;
+}
+
+.airport.link span a {
+    color: black;
+    font-family: 'Oswald';
+    margin-right: 38px;
+    margin-top: 5px;
+    display: block;
+    float: left;
+    transition: 0.5s;
+}
+
+.airport.link {
+    overflow: hidden;
+    width: 248px;
+    position: relative;
+}
+
+span.firstSpan:after {
+    position: absolute;
+    background: #926904;
+    width: 22px;
+    height: 1px;
+    margin-left: -19%;
+    content: "";
+    left: 50%;
+    bottom: 6px;
+}
+
+
+.airport.link span a:hover {
+    color: red;
+}
+
+.airportSingelpbhav:hover img {
+    transform: scale(1.1);
+}
+
+
+/*---Hover section----*/
+
+section#Hover-slider {
+    overflow: hidden;
+}
+
+.hover-box-wrapper {
+    overflow: hidden;
+    float: left;
+    margin-top: 100px;
+    
+}
+.Singel-hover-slider {
+    width: 270px;
+    overflow: hidden;
+    float: left;
+    position: relative;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.Singel-hover-slider img {
+    width: 100%;
+}
+
+.meta-content {
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    padding: 17px 15px;
+    width: 100%;
+    color: white;
+    background: linear-gradient(to bottom,transparent, black 114px);
+    transition: 0.5s;
+}
+
+.meta-box a {
+    color: white;
+    margin: 7px 0px;
+    display: block;
+}
+
+
+.meta-box h1 {
+    text-transform: uppercase;
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+a.\32 nd-link {
+    color: white;
+    font-size: 11px;
+    display: block;
+    margin-bottom: 0px;
+    transform: translateX(-80px);
+    transition: 0.5s;
+}
+
+a.\32 nd-link i {
+    font-size: 8px;
+    margin-left: 1px;
+}
+
+.Singel-hover-slider:hover .meta-content {
+    padding: 33px 15px;
+}
+
+.Singel-hover-slider:hover a.\32 nd-link {
+
+    transform: translateX(0px);
+}
+
+
+
+
+
+/* footer bottom */
+
+#Footer{
+    background: #1a1a1a;
+    padding-top: 144px;
+}
+
+.Copyright-section-footer {
+    background: #1b1b1b;
+    overflow: hidden;
+    border-top: 1px solid #4d4d4d;
+}
+
+.Copyright-bottom-footer {
+    color: gray;
+    overflow: hidden;
+}
+
+span.bottom-span {
+  
+    float: left;
+    margin: 13px 0px;
+}
+
+.bottom_mune {
+    width: 600px;
+    float: right;
+}
+
+.bottom_mune ul {
+    list-style: none;
+    float: right;
+}
+
+.bottom_mune ul li {
+    float: left;
+    margin: 10px;
+}
+
+ul.mune-list  li a {text-decoration: none;color: gray;padding-right: 32px;}
+
+ul.mune-list  a:last-child {
+    padding-right: 21px;
+}
+
+.Main-footer-box-wrapper {
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+.singel-one-footer-box {
+    overflow: hidden;
+    float: left;
+    width: 200px;
+    margin-left: 33px;
+}
+
+.singel-one-footer-box:first-child {
+    margin-left: 0px;
+}
+
+.singel-one-footer-box h1 {
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.singel-one-footer-box p {
+    font-family: 'Work Sans';
+    color: white;
+    line-height: 19px;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+.first-section-footer-icon a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    float: left;
+    background: gray;
+    height: 20px;
+    width: 20px;
+    padding: 2px 4px;
+    margin: 0px 8px;
+    display: grid;
+    place-items: center;
+    border-radius: 2px;
+    font-size: 13px;
+    transition: .4s;
+}
+
+.first-section-footer-icon a:first-child {
+    margin-left: 0px;
+}
+
+.first-section-footer-icon a:hover {
+    transform: scale(1.1);
+}
+
+span#Contact_footer {
+    color: white;
+    display: block;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+span#Contact_footer i {
+    font-size: 17px;
+    color: #da0505;
+    margin-right: 8px;
+    margin-bottom: 5px;
+}
+
+ul.use-link {
+    list-style: none;
+}
+
+ul.use-link li a {
+    line-height: 23px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 2px;
+   transition: .4s;
+    cursor: pointer;
+    transition: .4s;
+    text-decoration: none;
+}
+ul.use-link li{
+    border-bottom: 1px dotted gray;
+
+}
+
+
+ul.use-link li i {
+    font-size: 10px;
+    margin-right: 5px;
+}
+
+ul.use-link li:last-child {
+    border-bottom: none;
+}
+
+ul.use-link li:hover a {
+    margin-left: 10px;
+}
+
+.footer-meta {
+    width: 250px;
+    overflow: hidden;
+    margin-bottom: 9px;
+}
+
+
+.celendar {
+    width: 40px;
+    float: left;
+    background: gray;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.celendar-Info {
+    width: 183px;
+    float: right;
+    font-size: 9px;
+}
+
+
+span.cel.span1 {
+    font-family: 'Oswald';
+    font-weight: 900;
+    font-size: 28px;
+}
+
+a.admin-link  {
+    color: white;
+    font-family: 'Oswald';
+    font-size: 13px;
+    margin-right: 27px;
+    text-decoration: none;
+
+}
+
+
+a.admin-link i {
+    margin-right: 8px;
+}
+section {
+    padding: 70px 0px;
+    
+    bottom: -137px;
+}
+
+
+.subscribbox_wrapper {
+    overflow: hidden;
+    background: #fb5200;
+    border-radius: 3px;
+ 
+}
+
+
+.subscribSingelbox {
+    width: 310px;
+    float: left;
+    padding: 28px;
+}
+
+.subscribSingelbox h1 {
+    text-transform: uppercase;
+    color: white;
+    font-family: 'oswald';
+    padding-bottom: 25px;
+}
+
+.sub_inputbox input:first-child {
+    width: 72%;
+    border: none;
+    outline: none;
+    padding: 9px;
+    font-family: 'Oswald';
+    font-size: 10px;
+    letter-spacing: 1px;
+    border-bottom-left-radius: 45px;
+    border-top-left-radius: 45px;
+}
+input.subtn {
+    border: none;
+    background: black;
+    color: white;
+    padding: 9px;
+    outline: none;
+    width: 95px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    border-radius: 50px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.sub_inputbox {
+    position: relative;
+}
+
+.subicon a {
+    transition: 0.5s;
+    width: 25px;
+    display: block;
+    height: 25px;
+    float: left;
+    border: 1px solid white;
+    display: grid;
+    text-decoration: none;
+    place-items: center;
+    border-radius: 50px;
+    color: white;
+    margin-right: 10px;
+}
+
+.subicon a:hover {
+    background: white;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+/*-------Media Quary-------*/
+
+@media screen and (max-width:750px){
+
+    .Container {
+        width: 900px;
+        max-width: 90%;
+        margin: auto;
+        padding: 0px 10px 0px 10px;
+    }
+    
+
+
+
+    .Social_help_Wrapper {
+       display: none;
+    }
+    
+
+    .navlogo {
+        width: 90%;
+        
+        text-align: center;  
+        padding-top: 40px;
+        margin-left: 28px;
+    
+    }
+
+    .mune {
+        width: 90%;
+      
+    }
+
+    .mune li {
+        width: 90%;
+        text-align: center;
+    }
+
+
+    .SingelBox_slider {
+        color: wheat;
+        width: 50%;
+        margin: auto;
+    }
+    
+    
+    
+
+ 
+    
+.singelFlexSection {
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+
+}
+
+
+
+
+    .Flex-section_wrapper {
+        flex-direction: column;
+     
+    }
+    
+    .singelNewsbox {
+        flex-direction: column;
+   
+    }
+    .newsDescription {
+        padding: 10px;
+        max-width: 90%;
+        
+    }
+    .newsDescription h1 {
+      text-align: center;
+        
+    }
+    .newsImage {
+      
+        width:50%;
+        margin: auto;
+    }
+
+    .Uniq-flex-wrapper {
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+
+
+    .Price-box-wrapper {
+      flex-direction: column;
+      width: 90%;
+      margin: auto;
+      margin-top: 70px;
+      
+    }
+
+    .AirportBhav-Wrapper{
+       flex-direction: column;
+       width: 90%;
+       margin:auto ;
+       justify-content: center;
+      
+
+}
+
+.AirportmetaContent {
+  margin-bottom: 20px;
+}
+
+
+.singel-one-footer-box {
+    width: 90%;
+    margin: auto;
+    
+}
+
+span.bottom-span {
+    width: 90%;
+    margin: 20 auto;
+    text-align: center;}
+
+
+
+
+}
